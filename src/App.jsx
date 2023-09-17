@@ -1,7 +1,7 @@
 
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
-// import Navdaisy from './Components/Navdaisy/Navdaisy'
+import Navdaisy from './Components/Navdaisy/Navdaisy'
 
 
 function App() {
@@ -9,8 +9,9 @@ function App() {
 
   return (
     <>
-     {/* <Navdaisy></Navdaisy> */}
+     
       <Navbar></Navbar>
+      <Navdaisy></Navdaisy>
    
     </>
   )
